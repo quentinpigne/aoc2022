@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	fileLines := utils.ReadFileLines("inputs/day7.txt")
-	fmt.Println(days.ComputeDay7Part2(fileLines))
+	fileLines := utils.ReadFileLines("inputs/day8.txt")
+	fmt.Println(days.ComputeDay8Part2(fileLines))
 }
